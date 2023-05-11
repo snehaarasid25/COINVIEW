@@ -7,6 +7,7 @@ import CoinDetails from "./components/CoinDetails";
 import Footer from "./components/Footer";
 
 
+
 function App() {
   return (
     <Router>

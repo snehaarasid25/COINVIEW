@@ -1,6 +1,6 @@
 import { Box, Image, Text } from "@chakra-ui/react";
 import React from "react";
-import imgSrc from "../assets/img.png";
+import imgSrc from "../assets/imgg.jpg";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -23,16 +23,15 @@ const Home = () => {
           h={"full"}
           objectFit={"contain"}
           src={imgSrc}
-          filter={"grayscale(1)"}
         />
       </motion.div>
 
       <Text
-        fontSize={"8xl"}
+        fontSize={"6xl"}
         textAlign={"center"}
         fontWeight={"thick"}
         color={"whiteAlpha.700"}
-        mt={"-20"}
+        mt={"-2"}
       >
         Crypto Vault
       </Text>
